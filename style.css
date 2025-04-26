@@ -1,0 +1,160 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  @media (max-width: 600px) {
+    img {
+      display: none;
+    }
+  }
+  .nameNav{
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+    font-size: 30px;
+    float: left;
+    margin-top: 0;
+  }
+  .icons{
+    margin-top: 0;
+  }
+  nav *{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: black;
+    font-weight: bolder;
+
+  }
+  /*.backgroundImage{
+  position: relative;
+  display: inline-block;
+  }*/
+  .bgImg{
+    background-color: #F5F5DC;
+    background: url("hairpt10.jpg");
+    background-size: 150px;
+    width: 100%;
+    height: 750px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .top{
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1{
+    font-family:  "Lora", Serif;
+    font-size: 400%;
+    color: white;
+    font-weight: 500;
+  }
+  .spanHeading{
+    margin-left: 170px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .buttonHeading{
+    font-weight: bolder;
+    margin-top: 30px;
+    width: 165px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family:  "Lora", Serif;
+    margin-left: 180px;
+  }
+  .sideWays{
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float: right;
+    top: 400px;
+    right: 0;
+    margin-right: 35px;
+    font-size: 20px;
+  }
+  .box{
+    border: 20px solid black;
+    background-color: black;
+    color: white;
+    font-family:  "Lora", Serif;
+    max-width: 800px;
+    float: right;
+    margin-left: 950px;
+    margin-top: -360px;
+    padding-bottom: 10px;
+    height: 250px;
+    position: absolute; 
+  } 
+  div .buttonBookOnline{
+    padding: 8px;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    font-family:  "Lora", Serif;
+  }
+  .noWrap{
+    white-space: nowrap;
+  }
+  .threeBoxes{
+    display: flex;/*
+    flex-direction: row;*/
+    justify-content: space-around;
+    height: 200px;
+    margin: 40px;
+  }
+  .threeBoxes, p{
+    padding: 10px;
+  }
+  .boxesHeading{
+    display: flex;
+    justify-content: center;
+  }
+/*.bottomBox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    max-width: 500px;
+  } */
+  .bottomButton{
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    width: 165px;
+    height: 50px;
+    font-family:  "Lora", Serif;
+  }
+  .bottomBox{
+    max-width: 600px;
+     margin-left: 50px;
+     padding-left: 50px;
+  }
+  .bottomBox > h2 {
+    text-align: center;
+  }
+  .bottomBox .bottomButton{
+    margin-left: 150px;
+  }
+  .hairDo{
+    float: right;
+    max-width: 600px;
+    top: -300px;
+    position: relative;
+    margin-right: 50px;
+  }
