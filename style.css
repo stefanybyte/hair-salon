@@ -17,30 +17,107 @@
       display: none;
     }
   }
+  .heroSection{
+    background: url('assets/hairpt10.jpg');
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }/*
   .nameNav{
     font-family: "Dancing Script", cursive;
     font-weight: 900;
     font-size: 30px;
     float: left;
     margin-top: 0;
+  } */
+  .nameNav{
+    font-weight: 950;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    pointer-events: none;
+   }
+   nav {
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    flex-direction: row;
+    
   }
-  .icons{
-    margin-top: 0;
-  }
-  nav *{
-    list-style-type: none;
-    text-decoration: none;
+  nav ul{
     display: flex;
-    justify-content: space-evenly;
+    list-style-type: none;
     margin-top: 10px;
-    color: black;
-    font-weight: bolder;
-
+    justify-content: center;
+    align-items: center;
+    height: 60px;
   }
-  /*.backgroundImage{
+  nav li{
+    padding: 0 20px;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+.timeOperation{
+
+}
+.top{
+  position: relative;
+  height: 400px;
+  text-align: center;
+  top: 200px;
+  left: 400px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.spanHeading{
+  padding: 10px;
+}
+.buttonHeading{
+  margin: 10px;
+  background-color: black;
+  color: white;
+
+  width: 150px;
+  height: 50px;
+}
+.box{
+  border: 5px solid white;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  left: 400px;
+  padding: 10px 20px;
+}
+.firstVisit{
+  color: white;
+}
+.percentOff{
+  color: white;
+}
+.subHeadingBox{
+  color: white;
+}
+.buttonBookOnline{
+  color: white;
+}
+
+/* 
+  
+.backgroundImage{
   position: relative;
   display: inline-block;
-  }*/
+  } 
   .bgImg{
     background-color: #F5F5DC;
     background: url("hairpt10.jpg");
@@ -113,8 +190,8 @@
     white-space: nowrap;
   }
   .threeBoxes{
-    display: flex;/*
-    flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     height: 200px;
     margin: 40px;
@@ -126,12 +203,12 @@
     display: flex;
     justify-content: center;
   }
-/*.bottomBox{
+.bottomBox{
     display: flex;
     flex-direction: column;
     margin-left: 60px;
     max-width: 500px;
-  } */
+  } 
   .bottomButton{
     color: white;
     background-color: black;
@@ -157,4 +234,4 @@
     top: -300px;
     position: relative;
     margin-right: 50px;
-  }
+  } */
