@@ -28,7 +28,10 @@ body{
 html{
   overflow-x: hidden;
 }
-
+/* 
+a {
+color: #50424F;
+} */
   .HOME{
     background: url('assets/hairpt10.jpg');
     background-size: cover;
@@ -52,7 +55,8 @@ html{
   #offerBanner{
     position: relative;
     background-color: black;
-    color: white;
+   color: white;
+
     width: 100vw;
     font-weight: 400;
     font-family:  "Lora", Serif;
@@ -71,6 +75,7 @@ html{
     font-size: 30px;
     font-family: "Dancing Script", cursive;
     pointer-events: none;
+      color: #50424F;
    }
 
    nav {
@@ -99,7 +104,7 @@ html{
 
   nav a{
     text-decoration: none;
-    color: black;
+    color: #50424F;
   }
 
 .timeOperation{
@@ -107,10 +112,13 @@ html{
   top: 150px;
   left: 400px;
   font-weight: 300;
+  color: #50424F;
 }
 
 .headingOne{
   font-weight: 450;
+  color: #50424f;
+
 }
 
 .top{
@@ -127,6 +135,7 @@ html{
 
 .spanHeading{
   padding-bottom: 10px;
+  color: #50424f;
 }
  
 
@@ -137,7 +146,8 @@ html{
   text-align: center;
   align-items: center;
   flex-direction: column;
-  background-color: black;
+  background-color: #B7A6B5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   left: 400px;
   bottom: 40px;
   margin: 20px;
@@ -148,15 +158,14 @@ html{
 }
 
 .firstVisit{
-  color: white;
+  color: #50424F;
 }
-
 .percentOff{
-  color: white;
+  color: #50424F;;
 }
 
 .subHeadingBox{
-  color: white;
+  color: #50424F;;
 }
 
 .threeBoxes{
@@ -166,8 +175,13 @@ html{
   padding: 20px;
   align-items: center;
   text-align: center;
+ }
+
+
+.threeBoxes p{/*
+  max-width: 275px;*/
   font-size: 15px;
-}
+} 
 
 .boxesHeading{
   font-weight: 500;
@@ -191,6 +205,9 @@ html{
   max-width: 100vw;
   margin: 50px 60px;
   align-items: center;
+  background-color: #B7A6B5;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 
 .bottomBoxText{
@@ -213,6 +230,7 @@ html{
   font-weight: 500;
   font-size: 1.70em;
 }
+
 
 
 .services{
@@ -239,8 +257,10 @@ html{
   align-items: center;
   text-align: center;
   flex-direction: column;
-  max-width: 400px;
+ width: 400px;
   float: left;
+  border: 1px solid #50424F;
+  padding-bottom: 10px;
 }
 
 
@@ -255,7 +275,7 @@ html{
   border-radius: 2rem;
   background-color: #e8e9ed;
   border: 1px solid #232738;
-  color: #232738;
+  color: #50424F;
   transition: all 300ms ease;
   font-weight: 550;
   cursor: pointer;
@@ -263,6 +283,7 @@ html{
 }
 .btn:hover {
   background-color:rgb(112, 112, 112);
+  color: white;
   transition: 0.7s;
 }
 
@@ -307,7 +328,7 @@ html{
   border-radius: 2rem;
   background-color: #232738;
   border: 1px solid #232738;
-  color: #e8e9ed;
+  color: #50424F;
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
