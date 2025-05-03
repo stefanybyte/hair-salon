@@ -107,14 +107,6 @@ color: #50424F;
     color: #50424F;
   }
 
-.timeOperation{
-  position: relative;
-  top: 150px;
-  left: 400px;
-  font-weight: 300;
-  color: #50424F;
-}
-
 .headingOne{
   font-weight: 450;
   color: #50424f;
@@ -186,6 +178,7 @@ color: #50424F;
 .boxesHeading{
   font-weight: 500;
   font-size: 1.50em;
+  font-weight: 600;
 }
 
 .threeboxesind{
@@ -199,14 +192,13 @@ color: #50424F;
   border-radius: 20px;
 }
 
-
 .aboutText{
   display: flex;
   max-width: 100vw;
   margin: 50px 60px;
   align-items: center;
-  background-color: #B7A6B5;
-  
+  height: 500px;
+  padding-left: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 
@@ -310,7 +302,7 @@ color: #50424F;
 .subHeading{
   width: 100%;
   margin-left: 40px;
-  font-weight: 500;
+  font-weight: 600;
   font-family:  "Lora", Serif;
 }
 
@@ -364,6 +356,9 @@ color: #50424F;
 }
 
 footer{
+  background-color: #d3d3d3; /* light grey */
+  color: #333; /* darker text for contrast */
+
   display: flex;
   height: 250px;
   max-width: 80%;
